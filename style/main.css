@@ -114,7 +114,7 @@ header nav a:hover {
     color: black;
 }
 
-.botao:nth-child(2){
+.botao:nth-child(2) {
     margin-left: 10px;
 }
 
