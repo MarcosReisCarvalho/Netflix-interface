@@ -22,6 +22,7 @@ header{
     z-index: 1;
 
     width: 100%;
+    padding: 23px 0px;
 
     background-image: linear-gradient(to bottom,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));;
 }
@@ -29,8 +30,6 @@ header{
 header .container {
     display: flex;
     align-items: center; /*alinhamento na vertical*/
-
-    padding: 23px 54px;
 }
 
 header img {
@@ -67,7 +66,7 @@ header nav a:hover {
     z-index: 0;
 
     width: 100%;
-    height: 600px;
+    height: 650px;
 
     /*flex*/
     display: flex;
@@ -120,4 +119,12 @@ header nav a:hover {
 
 .botao i {
     margin-right: 8px; 
+}
+
+.container {
+    margin: 0px 54px;
+}
+
+.filme-principal .container {
+    width: 60%;
 }
