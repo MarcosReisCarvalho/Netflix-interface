@@ -61,7 +61,7 @@ header nav a:hover {
 /*Filme principal*/
 
 .filme-principal {
-    position: absolute;
+    position: relative;
     top: 0;
     z-index: 0;
 
@@ -93,6 +93,8 @@ header nav a:hover {
     font-family: 'trebuchet MS', Arial, sans-serif;
 }
 
+/*botão*/
+
 .botao {
     cursor: pointer;
 
@@ -108,18 +110,20 @@ header nav a:hover {
     transition: 0.5s ease-in;
 }
 
+.botao:nth-child(1){
+    margin-right: 15px;
+}
+
 .botao:hover {
     background-color: white;
     color: black;
 }
 
-.botao:nth-child(2) {
-    margin-left: 10px;
-}
-
 .botao i {
     margin-right: 8px; 
 }
+
+/******/
 
 .container {
     margin: 0px 54px;
@@ -127,4 +131,16 @@ header nav a:hover {
 
 .filme-principal .container {
     width: 60%;
+}
+
+/*imgs*/
+
+.carrosel-filmes{
+    margin-top: -25px;
+}
+
+.box-filme{
+    height: 100%;
+    display: block;
+    border-radius: 8px;
 }
