@@ -9,18 +9,27 @@
     box-sizing: border-box;
 }
 
+/*elementos base*/
+
 body {
     background: var(--preto);
+    color: white;
+
     font-family: 'Times New Roman', Times, serif;
 }
 header{
+    position: absolute;
+    z-index: 1;
+
     width: 100%;
+
+    background-image: linear-gradient(to bottom,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));;
 }
 
 header .container {
     display: flex;
     align-items: center; /*alinhamento na vertical*/
-    
+
     padding: 23px 54px;
 }
 
@@ -48,4 +57,36 @@ header nav a  {
 
 header nav a:hover {
     color: #AAA;
+}
+
+/*Filme principal*/
+
+.filme-principal {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+
+    width: 100%;
+    height: 600px;
+
+    /*flex*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /*joga para a esquerda*/
+    /*****/
+
+    font-size: 16px;
+
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/house-of-cards.jpg');
+    background-size: cover;
+    
+}
+
+.filme-principal .descricao {
+    margin-bottom: 40px;
+}
+
+.titulo {
+    font-size: 40px;
 }
