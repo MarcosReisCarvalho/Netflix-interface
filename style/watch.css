@@ -1,0 +1,20 @@
+.filme-principal {
+    position: relative;
+    top: 0;
+    z-index: 0;
+
+    width: 100%;
+    height: 650px;
+
+    /*flex*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*****/
+
+    font-size: 16px;
+
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/house-of-cards.jpg');
+    background-size: cover;
+    
+}
